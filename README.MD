@@ -99,7 +99,8 @@ To train the model with the three targets (setosa, versicolor, virginica), it is
 
 Now you have to change the target for the training and for the test. 
 
-Example : train.iloc[:,-3], test.iloc[:,-3] = setosa, <br>
+Example : <br>
+train.iloc[:,-3], test.iloc[:,-3] = setosa, <br>
 train.iloc[:,-2], test.iloc[:,-2] = versicolor, <br>
 train.iloc[:,-1], test.iloc[:,-1] = virginica
 
