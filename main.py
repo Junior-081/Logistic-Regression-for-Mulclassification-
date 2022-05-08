@@ -16,7 +16,7 @@ def split_data(df, train_percent= 0.8):
     train = df.iloc[perm[:train_index]]
     test = df.iloc[perm[train_index:]]
 
-    x_train, x_test, y_train, y_test= train.iloc[:, :-3], test.iloc[:, :-3], train.iloc[:,-3], test.iloc[:,-3]
+    x_train, x_test, y_train, y_test= train.iloc[:, :-3], test.iloc[:, :-3], train.iloc[:,-1], test.iloc[:,-1]
     return x_train.values, x_test.values, y_train.values, y_test.values
 
 x_train, x_test, y_train, y_test= split_data(data) 
@@ -39,5 +39,7 @@ print("")
 print("PROBABILITIES PREDICTED")
 print("")
 print(model1.predict_proba(x_test))
+print("")
+print(f"Accuracy is : {model1.accuracy(model1.predict(x_test),y_test)} ")
 print("")
 print("")

@@ -7,7 +7,7 @@ Logistic regression, by default, is limited to two-class classification problems
 Instead, the multinomial logistic regression algorithm is an extension of the logistic regression model that involves changing the loss function into a cross-entropy loss and the prediction probability distribution into a multinomial probability distribution to natively support multi-class classification problems.
 
 <b>The aims of this project is to implement logistic regression from scratch for multi-classification problems by using Iris Dataset.</b>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yp2tvuL8GdCxqLuDuZSfQrQQx_0qMAGH?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Ye4LOwxjGhqjhNHge4lXuzMIyLkJHNY9?usp=sharing)
 <br>
 <!DOCTYPE html>
 <html>

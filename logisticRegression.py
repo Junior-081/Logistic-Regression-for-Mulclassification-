@@ -100,8 +100,9 @@ class logregression_regularized:
         x=self.add_ones(x) # Apply add ones to x
         y_pred_prob= self.sigmoid(x, self.theta) # Predict proba with sigmoid
         return y_pred_prob
+    def accuracy(self,ypred,y_test):
+        return (np.sum(y_test==ypred)/len(y_test))*100
 
-  
     def plot(self):
         plt.xlabel('Epochs')
         plt.ylabel('Cost')
