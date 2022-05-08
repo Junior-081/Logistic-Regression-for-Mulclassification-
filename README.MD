@@ -97,7 +97,10 @@ You make sure that you have version 3 of python
 
 To train the model with the three targets (setosa, versicolor, virginica), it is necessary to train the model by taking all the features with the target one after the other and save the probability.
 
-Now you have to change the target for the training and for the test. Example : train.iloc[:,-3], test.iloc[:,-3] = setosa, train.iloc[:,-2], test.iloc[:,-2] = versicolor, train.iloc[:,-1], test.iloc[:,-1] = virginica
+Now you have to change the target for the training and for the test. 
+Example : train.iloc[:,-3], test.iloc[:,-3] = setosa, 
+train.iloc[:,-2], test.iloc[:,-2] = versicolor, 
+train.iloc[:,-1], test.iloc[:,-1] = virginica
 
 
 
