@@ -11,8 +11,8 @@ Instead, the multinomial logistic regression algorithm is an extension of the lo
 <br>
 <!DOCTYPE html>
 <html>
-<style>
-<!-- img.displayed {
+<!--<style>
+ img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto }
@@ -28,11 +28,11 @@ Instead, the multinomial logistic regression algorithm is an extension of the lo
 
 <!DOCTYPE html>
 <html>
-<style>
+<!-- <style>
 table, th, td {
   border:3px solid greenk;
 }
-</style>
+</style> -->
 <body>
 
 <h2>Histogram</h2>
