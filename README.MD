@@ -12,11 +12,11 @@ Instead, the multinomial logistic regression algorithm is an extension of the lo
 <!DOCTYPE html>
 <html>
 <style>
-img.displayed {
+<!-- img.displayed {
     display: block;
     margin-left: auto;
     margin-right: auto }
-</style>
+</style> -->
 <body>
 <figure >
 <img  class="displayed" src="figures/Distribution.png" height="500px" width="700"  alt="Data visualization in 2 Dimensions" style="align:center"/> 
